@@ -1,0 +1,85 @@
+/** overrides */
+.attr_image{float:left;margin-left:0;margin-right:15px;border:none;}
+.textsource{margin-top:-25px; margin-bottom:30px}
+
+/*.row { max-width: 920px; }*/
+#footer {
+    float: left ;
+}
+
+#contenu {
+   padding-bottom:60px;   /* Height of the footer */
+}
+div.newsborder {
+    border: 1px dashed #ddd;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+div.news-blue h2 {
+    background-color: #5892c4;
+    border: medium none;
+    color: white;
+    font-size: 15px;
+    height: 23px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0;
+    padding-bottom: 0;
+    text-indent: 8px;
+}
+
+.zeropaddinggauche {padding-left:0px}
+.zeropaddingdroite {padding-right:0px}
+
+
+ul.a {
+    padding-left: 15px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.a li {
+    background-image: url("http://www.iarc.fr/images/bullet.jpg");
+    background-position: 0 7px;
+    background-repeat: no-repeat;
+    padding-left: 12px;
+	color: #037ab3;
+}
+
+.logosurvivalback {
+    margin-left: 3px;
+    margin-top: 6px;
+    max-height: 90px;
+    width: 53px;
+}
+
+.modal-footer {
+    border-top: 0px solid #e5e5e5;
+    padding: 10px;
+    text-align: right;
+}
+
+.modal-header {
+    border-bottom: 0px solid #e5e5e5;
+    padding: 15px;
+}
+
+.modal-body {
+    padding: 15px;
+    position: relative;
+    text-align: center;
+}
+
+
+.block-list li {
+    border: 1px dashed #ddd;
+    margin: 10px 0 18px;
+    padding: 4px;
+}
+
+.image-icon {background-color: #eee;padding-left: 8px;padding-right: 8px;padding-top: 8px;width:32%}
+.image-icon-title {margin-top: 3px; margin-bottom: 3px}

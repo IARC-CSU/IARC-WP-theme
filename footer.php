@@ -8,9 +8,8 @@
  */
 ?>
 		
-				</div><!-- #page-position -->
-			</div><!-- contenu -->
-		</div>
+			</div><!-- #page-position -->
+		</div><!-- contenu -->
 		
 		<div id="footer" class="page-row">
 			<address class="page-position">

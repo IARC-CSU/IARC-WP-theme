@@ -970,37 +970,43 @@ body {
   min-width: 380px;
 }
 
-/* line 20, ../sass/iarc/_layout.scss */
+/* line 21, ../sass/iarc/_layout.scss */
+#main {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+/* line 26, ../sass/iarc/_layout.scss */
 .page-row {
   width: 100%;
 }
 
-/* line 23, ../sass/iarc/_layout.scss */
+/* line 29, ../sass/iarc/_layout.scss */
 .page-position {
   max-width: 920px;
   margin: 0 auto;
 }
 
-/* line 27, ../sass/iarc/_layout.scss */
+/* line 33, ../sass/iarc/_layout.scss */
 .breathe-in {
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
-/* line 31, ../sass/iarc/_layout.scss */
+/* line 37, ../sass/iarc/_layout.scss */
 .breathe-out {
   margin-top: 25px;
   margin-bottom: 25px;
 }
 
 /** header */
-/* line 37, ../sass/iarc/_layout.scss */
+/* line 43, ../sass/iarc/_layout.scss */
 #header {
   /*height: 113px;*/
   height: 133px;
 }
 
-/* line 41, ../sass/iarc/_layout.scss */
+/* line 47, ../sass/iarc/_layout.scss */
 #logo-position {
   float: left;
   width: 35%;
@@ -1010,18 +1016,18 @@ body {
   max-height: 82px;
 }
 
-/* line 49, ../sass/iarc/_layout.scss */
+/* line 55, ../sass/iarc/_layout.scss */
 #logo-position a {
   display: block;
   height: auto;
 }
 
-/* line 53, ../sass/iarc/_layout.scss */
+/* line 59, ../sass/iarc/_layout.scss */
 #logo-position a img {
   width: 100%;
 }
 
-/* line 57, ../sass/iarc/_layout.scss */
+/* line 63, ../sass/iarc/_layout.scss */
 .logosurvivalback {
   margin-left: 3px;
   margin-top: 6px;
@@ -1029,26 +1035,26 @@ body {
   width: 46px;
 }
 
-/* line 63, ../sass/iarc/_layout.scss */
+/* line 69, ../sass/iarc/_layout.scss */
 .logosubsitetitle {
   float: right;
   width: 299px;
 }
 
-/* line 67, ../sass/iarc/_layout.scss */
+/* line 73, ../sass/iarc/_layout.scss */
 #website-logo-position {
   float: right;
   margin: 5px 5px 0 0;
 }
 
-/* line 71, ../sass/iarc/_layout.scss */
+/* line 77, ../sass/iarc/_layout.scss */
 #links-position {
   float: right;
-  min-width: 120px;
+  min-width: 140px;
   padding: 10px 0 0 10px;
 }
 
-/* line 76, ../sass/iarc/_layout.scss */
+/* line 82, ../sass/iarc/_layout.scss */
 #networks {
   float: right;
   margin-top: 4px;
@@ -1058,7 +1064,7 @@ body {
   margin-bottom: 16px;
 }
 
-/* line 84, ../sass/iarc/_layout.scss */
+/* line 90, ../sass/iarc/_layout.scss */
 #networks li {
   height: 10px;
   border-left: 1px solid #cfcfcf;
@@ -1066,46 +1072,46 @@ body {
   display: inline-block;
 }
 
-/* line 90, ../sass/iarc/_layout.scss */
+/* line 96, ../sass/iarc/_layout.scss */
 #networks li.firstli {
   border-left: medium none;
 }
 
-/* line 93, ../sass/iarc/_layout.scss */
+/* line 99, ../sass/iarc/_layout.scss */
 #networks li.lastli {
   padding-right: 0;
 }
 
-/* line 96, ../sass/iarc/_layout.scss */
+/* line 102, ../sass/iarc/_layout.scss */
 #networks li a {
   margin-top: -4px;
   display: block;
 }
 
-/* line 100, ../sass/iarc/_layout.scss */
+/* line 106, ../sass/iarc/_layout.scss */
 #language-position {
   float: right;
   clear: right;
 }
 
-/* line 104, ../sass/iarc/_layout.scss */
+/* line 110, ../sass/iarc/_layout.scss */
 #language-position select, div.selector.fixedWidth {
   width: 90px;
 }
 
-/* line 107, ../sass/iarc/_layout.scss */
+/* line 113, ../sass/iarc/_layout.scss */
 div.selector.fixedWidth span {
   width: 80px;
 }
 
-/* line 110, ../sass/iarc/_layout.scss */
+/* line 116, ../sass/iarc/_layout.scss */
 button.selectpicker {
   padding-top: 3px;
   padding-bottom: 3px;
 }
 
 /** topmenu */
-/* line 116, ../sass/iarc/_layout.scss */
+/* line 122, ../sass/iarc/_layout.scss */
 #topmenu {
   padding: 0;
   margin: 0;
@@ -1114,15 +1120,16 @@ button.selectpicker {
   z-index: 10;
 }
 
-/* line 123, ../sass/iarc/_layout.scss */
-#topmenu > li {
+/* line 129, ../sass/iarc/_layout.scss */
+#topmenu > li, #primary-menu > li {
   float: left;
   height: 35px;
   position: relative;
+  min-width: 15%;
 }
 
-/* line 128, ../sass/iarc/_layout.scss */
-#topmenu > li > a {
+/* line 135, ../sass/iarc/_layout.scss */
+#topmenu > li > a, #primary-menu > li > a {
   font-family: "Gill Sans MT", Helvetica, Arial, sans-serif;
   color: #FFF;
   text-transform: uppercase;
@@ -1135,15 +1142,15 @@ button.selectpicker {
   padding: 0;
 }
 
-/* line 140, ../sass/iarc/_layout.scss */
-#topmenu > li.selected > a, #topmenu > li.selected:hover > a {
+/* line 147, ../sass/iarc/_layout.scss */
+#topmenu > li.selected > a, #topmenu > li.selected:hover > a, #primary-menu > li.selected > a, #primary-menu > li.selected:hover > a {
   background-color: #FFF !important;
   color: #0c81b6 !important;
   height: 38px;
 }
 
-/* line 145, ../sass/iarc/_layout.scss */
-#topmenu > li:hover > a {
+/* line 152, ../sass/iarc/_layout.scss */
+#topmenu > li:hover > a, #primary-menu > li:hover > a {
   background-color: #89b1c4;
   color: white;
   height: 38px;
@@ -1151,7 +1158,7 @@ button.selectpicker {
 }
 
 /** submenu */
-/* line 153, ../sass/iarc/_layout.scss */
+/* line 160, ../sass/iarc/_layout.scss */
 #topmenu .submenu {
   display: none;
   background-color: white;
@@ -1164,18 +1171,18 @@ button.selectpicker {
   border-bottom: none;
 }
 
-/* line 164, ../sass/iarc/_layout.scss */
+/* line 171, ../sass/iarc/_layout.scss */
 #topmenu > li:hover > .submenu {
   display: block;
 }
 
-/* line 167, ../sass/iarc/_layout.scss */
+/* line 174, ../sass/iarc/_layout.scss */
 #topmenu .submenu > li {
   position: relative;
   display: block;
 }
 
-/* line 171, ../sass/iarc/_layout.scss */
+/* line 178, ../sass/iarc/_layout.scss */
 #topmenu .submenu > li > a {
   /*color: #4b4b4b;*/
   color: #888;
@@ -1185,7 +1192,7 @@ button.selectpicker {
   display: block;
 }
 
-/* line 180, ../sass/iarc/_layout.scss */
+/* line 187, ../sass/iarc/_layout.scss */
 #topmenu .submenu > li > a:hover {
   /*
   background-color: #eeeeee;
@@ -1202,12 +1209,12 @@ button.selectpicker {
 }
 
 /** topmenu small */
-/* line 196, ../sass/iarc/_layout.scss */
+/* line 203, ../sass/iarc/_layout.scss */
 #topmenu-small {
   display: none;
 }
 
-/* line 199, ../sass/iarc/_layout.scss */
+/* line 206, ../sass/iarc/_layout.scss */
 #topmenu-small .bootstrap-select {
   border: none;
   border-radius: 0;
@@ -1216,38 +1223,38 @@ button.selectpicker {
   height: auto;
 }
 
-/* line 206, ../sass/iarc/_layout.scss */
+/* line 213, ../sass/iarc/_layout.scss */
 #topmenu-small .bootstrap-select button {
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
-/* line 210, ../sass/iarc/_layout.scss */
+/* line 217, ../sass/iarc/_layout.scss */
 #topmenu-small .bootstrap-select.btn-group .dropdown-menu {
   margin-top: 0;
   padding-top: 0;
   padding-bottom: 0;
 }
 
-/* line 215, ../sass/iarc/_layout.scss */
+/* line 222, ../sass/iarc/_layout.scss */
 #topmenu-small .bootstrap-select.btn-group .dropdown-menu li {
   border-bottom: 1px solid white;
 }
 
-/* line 218, ../sass/iarc/_layout.scss */
+/* line 225, ../sass/iarc/_layout.scss */
 #topmenu-small .bootstrap-select.btn-group .dropdown-menu li a {
   background-color: #0b80b7;
   color: white;
 }
 
-/* line 222, ../sass/iarc/_layout.scss */
+/* line 229, ../sass/iarc/_layout.scss */
 #topmenu-small .bootstrap-select.btn-group .dropdown-menu li a.child {
   background-color: #eeeeee;
   color: #0b80b7;
 }
 
 /** banner */
-/* line 228, ../sass/iarc/_layout.scss */
+/* line 235, ../sass/iarc/_layout.scss */
 .banner {
   /* 920 / 222 */
   /*height: 222px;*/
@@ -1258,7 +1265,7 @@ button.selectpicker {
   z-index: 0;
 }
 
-/* line 237, ../sass/iarc/_layout.scss */
+/* line 244, ../sass/iarc/_layout.scss */
 .banner .layer {
   position: absolute;
   top: 0;
@@ -1271,23 +1278,23 @@ button.selectpicker {
   /*TRINI */
 }
 
-/* line 247, ../sass/iarc/_layout.scss */
+/* line 254, ../sass/iarc/_layout.scss */
 .banner ul {
   width: 100%;
   z-index: 1;
 }
 
-/* line 251, ../sass/iarc/_layout.scss */
+/* line 258, ../sass/iarc/_layout.scss */
 .banner li, .banner img {
   width: 100%;
 }
 
-/* line 254, ../sass/iarc/_layout.scss */
+/* line 261, ../sass/iarc/_layout.scss */
 .banner.nocontrol .flex-direction-nav {
   display: none;
 }
 
-/* line 257, ../sass/iarc/_layout.scss */
+/* line 264, ../sass/iarc/_layout.scss */
 .banner .flex-direction-nav {
   position: absolute;
   width: 100%;
@@ -1297,7 +1304,7 @@ button.selectpicker {
   z-index: 3;
 }
 
-/* line 265, ../sass/iarc/_layout.scss */
+/* line 272, ../sass/iarc/_layout.scss */
 .banner .flex-direction-nav a {
   width: 48px;
   height: 48px;
@@ -1308,23 +1315,23 @@ button.selectpicker {
   overflow: hidden;
 }
 
-/* line 274, ../sass/iarc/_layout.scss */
+/* line 281, ../sass/iarc/_layout.scss */
 .flex-direction-nav a:before, .flex-direction-nav a.flex-next:before {
   content: "";
 }
 
-/* line 277, ../sass/iarc/_layout.scss */
+/* line 284, ../sass/iarc/_layout.scss */
 .banner .flex-direction-nav .flex-prev {
   left: 10px;
 }
 
-/* line 280, ../sass/iarc/_layout.scss */
+/* line 287, ../sass/iarc/_layout.scss */
 .banner .flex-direction-nav .flex-next {
   right: 10px;
   background-image: url("../images/banner/right.png");
 }
 
-/* line 284, ../sass/iarc/_layout.scss */
+/* line 291, ../sass/iarc/_layout.scss */
 .banner .title-position {
   display: table;
   width: 100%;
@@ -1335,7 +1342,7 @@ button.selectpicker {
   z-index: 3;
 }
 
-/* line 293, ../sass/iarc/_layout.scss */
+/* line 300, ../sass/iarc/_layout.scss */
 .banner h1 {
   width: 75%;
   height: auto;
@@ -1348,7 +1355,7 @@ button.selectpicker {
   display: table-cell;
 }
 
-/* line 304, ../sass/iarc/_layout.scss */
+/* line 311, ../sass/iarc/_layout.scss */
 .banner h1 span {
   display: block;
   line-height: 26px;
@@ -1356,7 +1363,7 @@ button.selectpicker {
   font-weight: normal;
 }
 
-/* line 310, ../sass/iarc/_layout.scss */
+/* line 317, ../sass/iarc/_layout.scss */
 .banner .section-layer {
   position: absolute;
   top: 0;
@@ -1368,7 +1375,7 @@ button.selectpicker {
   background-color: #0b80b7;
 }
 
-/* line 320, ../sass/iarc/_layout.scss */
+/* line 327, ../sass/iarc/_layout.scss */
 .banner .section-position {
   position: absolute;
   top: 0;
@@ -1378,7 +1385,7 @@ button.selectpicker {
   z-index: 3;
 }
 
-/* line 328, ../sass/iarc/_layout.scss */
+/* line 335, ../sass/iarc/_layout.scss */
 .banner .section {
   position: absolute;
   bottom: 0;
@@ -1391,7 +1398,7 @@ button.selectpicker {
   text-align: right;
 }
 
-/* line 339, ../sass/iarc/_layout.scss */
+/* line 346, ../sass/iarc/_layout.scss */
 .banner .section .title {
   color: white;
   font-size: 30px;
@@ -1399,7 +1406,7 @@ button.selectpicker {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 345, ../sass/iarc/_layout.scss */
+/* line 352, ../sass/iarc/_layout.scss */
 .safari .banner .title-position {
   height: auto;
   top: 50%;
@@ -1422,12 +1429,12 @@ button.selectpicker {
 }
 */
 /* OYA override bootstrap style for select element  and add other css for left menu blocs BEGIN */
-/* line 367, ../sass/iarc/_layout.scss */
+/* line 374, ../sass/iarc/_layout.scss */
 .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
   width: 254px;
 }
 
-/* line 372, ../sass/iarc/_layout.scss */
+/* line 379, ../sass/iarc/_layout.scss */
 .sidebarmenu {
   background-color: #3a98c4;
   left: 45px;
@@ -1437,7 +1444,7 @@ button.selectpicker {
   top: 20px;
 }
 
-/* line 380, ../sass/iarc/_layout.scss */
+/* line 387, ../sass/iarc/_layout.scss */
 .sidebarmenu .nav > li > a {
   color: white;
   display: block;
@@ -1445,29 +1452,29 @@ button.selectpicker {
   position: relative;
 }
 
-/* line 386, ../sass/iarc/_layout.scss */
+/* line 393, ../sass/iarc/_layout.scss */
 .sidebarmenu .nav > li > a:hover {
   color: #23527c;
 }
 
-/* line 390, ../sass/iarc/_layout.scss */
+/* line 397, ../sass/iarc/_layout.scss */
 body {
   height: 100%;
 }
 
-/* line 393, ../sass/iarc/_layout.scss */
+/* line 400, ../sass/iarc/_layout.scss */
 #container {
   min-height: 100%;
   position: relative;
 }
 
-/* line 397, ../sass/iarc/_layout.scss */
+/* line 404, ../sass/iarc/_layout.scss */
 #contenu {
   /* padding:10px;
    padding-bottom:60px;   /* Height of the footer */
 }
 
-/* line 401, ../sass/iarc/_layout.scss */
+/* line 408, ../sass/iarc/_layout.scss */
 #footer {
   position: relative;
   bottom: 0;
@@ -1477,19 +1484,19 @@ body {
 }
 
 /* Hiding google search buttons BEGIN */
-/* line 409, ../sass/iarc/_layout.scss */
+/* line 416, ../sass/iarc/_layout.scss */
 .cse input.gsc-search-button, input.gsc-search-button {
   /*display: none;*/
 }
 
-/* line 412, ../sass/iarc/_layout.scss */
+/* line 419, ../sass/iarc/_layout.scss */
 td.gsc-clear-button {
   display: none;
   width: 14px;
 }
 
 /* Hiding google search buttons END */
-/* line 418, ../sass/iarc/_layout.scss */
+/* line 425, ../sass/iarc/_layout.scss */
 .sidebarmenu .nav > li.active > a {
   background-color: #eee;
   color: #23527c;
@@ -1505,7 +1512,7 @@ td.gsc-clear-button {
 */
 /* OYA override bootstrap style for select element and add other css for left menu blocs END */
 /** footer */
-/* line 436, ../sass/iarc/_layout.scss */
+/* line 443, ../sass/iarc/_layout.scss */
 #footer {
   height: auto;
   background-color: #eeeeee;
@@ -1513,7 +1520,7 @@ td.gsc-clear-button {
   margin-bottom: 0px;
 }
 
-/* line 442, ../sass/iarc/_layout.scss */
+/* line 449, ../sass/iarc/_layout.scss */
 #footer address {
   padding-bottom: 10px;
   padding-top: 18px;
@@ -1524,7 +1531,7 @@ td.gsc-clear-button {
   font-style: normal;
 }
 
-/* line 451, ../sass/iarc/_layout.scss */
+/* line 458, ../sass/iarc/_layout.scss */
 #footer address a {
   color: #000;
 }

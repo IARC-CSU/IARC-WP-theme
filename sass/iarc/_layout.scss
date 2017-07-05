@@ -17,6 +17,12 @@ body {
     background-color: #fff;
     min-width: 380px;
 }
+
+#main{
+    padding-left: 0px !important; 
+    padding-right: 0px!important; 
+}
+
 .page-row {
     width: 100%;
 }
@@ -70,7 +76,7 @@ body {
 }
 #links-position {
     float: right;
-    min-width: 120px;
+    min-width: 140px;
     padding: 10px 0 0 10px;
 }
 #networks {
@@ -120,12 +126,13 @@ button.selectpicker  {
     position: relative;
     z-index: 10;
 }
-#topmenu > li {
+#topmenu > li , #primary-menu > li{
     float: left;
     height: 35px;
     position: relative;
+    min-width: 15% ;  
 }
-#topmenu > li > a {
+#topmenu > li > a , #primary-menu > li > a {
     font-family: "Gill Sans MT", Helvetica, Arial, sans-serif;
     color: #FFF;
     text-transform: uppercase;
@@ -137,12 +144,12 @@ button.selectpicker  {
     text-align: center;
     padding: 0;
 }
-#topmenu > li.selected > a, #topmenu > li.selected:hover > a {
+#topmenu > li.selected > a, #topmenu > li.selected:hover > a , #primary-menu > li.selected > a, #primary-menu > li.selected:hover > a {
     background-color: #FFF !important;
     color: #0c81b6 !important;
     height: 38px;
 }
-#topmenu > li:hover > a {
+#topmenu > li:hover > a , #primary-menu > li:hover > a {
     background-color: #89b1c4;
     color: white;
     height: 38px;
